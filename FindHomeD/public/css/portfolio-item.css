@@ -1,0 +1,94 @@
+/*!
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  font-family: "Times New Roman", Times, serif;
+}
+.icon-gadget-top{
+  margin-top: 20px;
+  width: 40px;
+}
+.icon-gadget{
+  margin-top: 20px;
+  width: 30px;
+}
+.title-top{
+  font-size:15px;
+  margin-bottom: 5px;
+}
+.border-item{
+  padding-bottom: 20px;
+  border-bottom:1px solid red;
+}
+.title-top a b{
+  color:red !important;
+}
+.ads-top {
+  margin-top: 20px;
+}
+.item{
+  font-size: 13px;
+  padding: 10px 10px 10px 10px;
+}
+.tin-noi-bat{
+  border-top: 3px solid green;
+  padding-top: 20px;
+}
+.title-default{
+  font-size:15px;
+}
+.img{
+  height: 170px;
+  width: 100%;
+}
+.describe-main{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 100%;
+  height: 100px;
+}
+.title-hot > a{
+  color:#ff6600;
+  font-size: 25px;
+  font-weight: bold;
+}
+.title-hot > a:hover{
+  color:#00004d;
+  text-decoration:none;
+}
+.btn-info{
+  background: #00004d;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.title{
+    text-transform:uppercase; 
+}
+.title a:hover{
+  text-decoration: none;
+}
+.item{
+  position: relative;
+}
+.item .img-hot:hover .describe{
+  display: block;
+}
+.describe{
+  position:absolute;
+  top:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 100%;
+  height: 100%;
+  background: blue; 
+  left:0;
+  display: none;
+  font-size: 19px;
+}
