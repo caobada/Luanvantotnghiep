@@ -8,7 +8,15 @@
                 <div class="border-item">
                   <div class="row">
                 <div class="col-md-6">
-                  <img class="img img-hot" src="images/home/home1.jpg" alt="">
+                  <div class="cover-img">
+                    <?php 
+                      $image = explode(';',$data->image);
+                      $numeric_img = count($image);
+                     ?>
+                    <img class="img img-hot" src="images/home/{{$image[0]}}" alt="">
+                  <div class="numeric"> {{$numeric_img}} ảnh</div>
+                  <div class="icon-hot">HOT</div>
+                </div>
                 </div>
                 <div class="col-md-6">
                   <p class="title title-top"><a href="#"><b class="my-3">{{$data->title}}</b></a></p>

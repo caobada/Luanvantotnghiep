@@ -66,7 +66,11 @@
         <div class="col-md-8 col-12 col-sm-12">
           <div class="row">
         <div class="col-md-6 col-12 col-sm-12">
+          <div class="cover-img">
           <img class="img-top" width="100%" height="220px" src="images/home/home1.jpg" alt="">
+          <div class="numeric">2 ảnh</div>
+          <div class="icon-top">TOP</div>
+          </div>
         </div>
 
         <div class="col-md-6 col-12 col-sm-6">

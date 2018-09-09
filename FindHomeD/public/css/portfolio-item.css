@@ -22,10 +22,10 @@ body {
 }
 .border-item{
   padding-bottom: 20px;
-  border-bottom:1px solid red;
+  border-bottom:1px solid #FF4136;
 }
 .title-top a b{
-  color:red !important;
+  color:#FF4136 !important;
 }
 .ads-top {
   margin-top: 20px;
@@ -52,16 +52,16 @@ body {
   height: 100px;
 }
 .title-hot > a{
-  color:#ff6600;
+  color:#FF4136;
   font-size: 25px;
   font-weight: bold;
 }
 .title-hot > a:hover{
-  color:#00004d;
   text-decoration:none;
 }
 .btn-info{
-  background: #00004d;
+  font-weight: 600;
+  background: #2ECC40;
 }
 @media (min-width: 992px) {
   body {
@@ -75,6 +75,10 @@ body {
   text-decoration: none;
 }
 .item{
+  position: relative;
+}
+.cover-img{
+  overflow: hidden;
   position: relative;
 }
 .item .img-hot:hover .describe{
@@ -91,4 +95,41 @@ body {
   left:0;
   display: none;
   font-size: 19px;
+}
+.numeric{
+  position: absolute;
+  top:0;
+  background:#00000080;
+  width: 50px;
+  font-size: 16px;
+  border-radius: 3px;
+  opacity: 1;
+  padding: 0 0 0 5px;
+  color:#ffffff;
+}
+.icon-hot{
+  background:#FF4136;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top:-20px;
+  padding:20px 30px 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+  right: -35px;
+}
+.icon-top{
+  background:#FF4136;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top:-20px;
+  padding:20px 30px 3px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+  right: -35px;
 }
